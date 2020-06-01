@@ -1,0 +1,11 @@
+{
+  "name": "test-data-scraping",
+  "version": "1.0.0",
+  "dependencies": {
+    "puppeteer": "^1.8.0"
+  },
+  "scripts": {
+    "deploy": "gcloud functions deploy scrapingExample --trigger-http --runtime nodejs8 --memory 1024MB --region europe-west1",
+    "start": "functions start && functions deploy --source=. scrapingExample --trigger-http"
+  }
+}
