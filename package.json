@@ -2,6 +2,7 @@
   "name": "test-data-scraping",
   "version": "1.0.0",
   "dependencies": {
+    "fs": "0.0.1-security",
     "puppeteer": "^1.8.0"
   },
   "scripts": {
