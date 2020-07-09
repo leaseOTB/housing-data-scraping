@@ -8,3 +8,7 @@ https://docs.google.com/spreadsheets/d/1CKnZu09Ha4lB4SsvAVxd3expoTZrstuLMYGf7fdT
 Web scraping scripts for HPD/HUD affordable housing data using Chrome Puppeteer.
 
 Scripts pushed to master are deployed to testing database.
+
+Low-Income Housing Tax Credit Properties:- https://hudgis-hud.opendata.arcgis.com/datasets/low-income-housing-tax-credit-properties
+
+Multifamily Properties:- http://hudgis-hud.opendata.arcgis.com/datasets/multifamily-properties-assisted/geoservice
