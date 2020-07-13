@@ -1,19 +1,27 @@
+
 # test-data-scraping
 
 ## Goals
 
-Specfications are here 
+**Specifications are here** 
 https://docs.google.com/spreadsheets/d/1CKnZu09Ha4lB4SsvAVxd3expoTZrstuLMYGf7fdTims/edit?usp=sharing
 
-Web scraping scripts for HPD/HUD affordable housing data using Chrome Puppeteer.
+We develop data extractor to collect the affordable housing data from:
 
-Scripts pushed to master are deployed to testing database.
+ - HCR : https://apps.hcr.ny.gov/BuildingSearch/
+ - HPD : https://hpdonline.hpdnyc.org/HPDonline/provide_address.aspx
+ - HUD : https://resources.hud.gov/
 
-Low-Income Housing Tax Credit Properties:- https://hudgis-hud.opendata.arcgis.com/datasets/low-income-housing-tax-credit-properties
-
-Multifamily Properties:- http://hudgis-hud.opendata.arcgis.com/datasets/multifamily-properties-assisted/geoservice
+## Other source of affordable housing data
 
 
-Source of inspiration and understanding the data structure in nyc
+ - Tax Bill https://a836-pts-access.nyc.gov/care/forms/htmlframe.aspx?mode=content/home.htm
+ - PLUTO database https://data.cityofnewyork.us/City-Government/Primary-Land-Use-Tax-Lot-Output-PLUTO-/64uk-42ks
+ - HUD Low-Income Housing Tax Credit Properties: 
+ https://hudgis-hud.opendata.arcgis.com/datasets/low-income-housing-tax-credit-properties
+ - HUD Multifamily Properties:
+ http://hudgis-hud.opendata.arcgis.com/datasets/multifamily-properties-assisted/geoservice
+
+## Resources to understand and manipulation NYC housing data 
 https://github.com/JustFixNYC/who-owns-what
 https://github.com/nycdb/nycdb
